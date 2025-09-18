@@ -5,7 +5,7 @@ heroText: "Suhaeb Fazel Mohammad"
 tagline: "Laravel Backend Developer | Frontend Specialist | Full-Stack Problem Solver"
 actions:
   - text: "💼 View My Projects →"
-    link: /projects.html
+    link: /project
 features:
   - title: "Laravel Backend"
     details: "APIs, Authentication, Authorization, Database Design, Eloquent ORM, Artisan Commands"

@@ -8,13 +8,15 @@ export default defineUserConfig({
   title: 'Profile',
   description: 'My first VuePress Site',
 
+  base: '/suhaebFazelMohammad.github.io/',
+
   theme: defaultTheme({
     logo: '/images/github-50.png',
 
     navbar: [
       { text: "Home", link: "/" },
-      { text: "Project", link: "/projects.html" }, 
-      { text: "Skill", link: "/skills.html" }
+      { text: "Project", link: "/project" }, 
+      { text: "Skill", link: "/skill" }
     ],
   }),
 
