@@ -1,0 +1,40 @@
+// Laravel-inspired colors
+:root
+  --laravel-red: #ff2d20
+  --laravel-orange: #ff8c42
+  
+.home .hero
+  .hero-title
+    color var(--laravel-red)
+    
+.home .features
+  .feature
+    h2
+      color var(--laravel-red)
+
+// Code blocks with Laravel styling
+div[class*="language-"]
+  background-color #2d3748
+  
+div[class*="language-php"]
+  &::before
+    content "PHP"
+    color var(--laravel-red)
+
+div[class*="language-javascript"]
+  &::before
+    content "JavaScript"
+    color #f7df1e
+
+// Custom badges for skills
+.skill-badge
+  display inline-block
+  background var(--laravel-red)
+  color white
+  padding 4px 8px
+  border-radius 4px
+  font-size 0.8em
+  margin 2px
+
+.learning-badge
+  background var(--laravel-orange)
